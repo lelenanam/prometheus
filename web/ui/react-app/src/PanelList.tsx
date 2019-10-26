@@ -165,7 +165,7 @@ class PanelList extends Component<any, PanelListState> {
             <Button
               className="float-right classic-ui-btn"
               color="link"
-              onClick={() => { window.location.pathname = "../../graph" }}
+              onClick={() => { window.location.pathname = "../graph" }}
               size="sm">
               Return to classic UI
             </Button>
